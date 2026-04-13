@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "26.\u524D\u53D1"
+  m_Shader: {fileID: 4800000, guid: f1780496216017e4c82e5f97eafaa06a, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _USE_AO
+  m_InvalidKeywords:
+  - _DEPTH_OFFSET_ON
+  - _USE_ANGEL_RING
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AOMap:
+        m_Texture: {fileID: 2800000, guid: 9838b601978ce51479c97df6bb90579c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AngelRingMap:
+        m_Texture: {fileID: 2800000, guid: 883b493ce1936b74ca6c443c03c09ff6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HETMap:
+        m_Texture: {fileID: 2800000, guid: 78297cb5b1aceee4a8c238351215e7a9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 7f9bc799363874145b4823acc345fc67, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap:
+        m_Texture: {fileID: 2800000, guid: 6949eb645d2931a40afbce6cf964c8cc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCapMask:
+        m_Texture: {fileID: 2800000, guid: a988fd047114411479de9fb906a97ee2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampMap:
+        m_Texture: {fileID: 2800000, guid: 55e6374ad8e86444ea1f16318922db80, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularMap:
+        m_Texture: {fileID: 2800000, guid: 6949eb645d2931a40afbce6cf964c8cc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AngelRingIntensity: 1.53
+    - _DepthOffsetOn: 1
+    - _Factor: 0
+    - _HET_ShadowStrength: 0.5
+    - _MatCapIntensity: 0.8
+    - _OffsetX: 0
+    - _OffsetY: 3.95
+    - _OutlineScale: 3.54
+    - _OutlineWidth: 0.92
+    - _ShadowSmooth: 0.05
+    - _ShadowThreshold: 0.5
+    - _SpecularBaseShift: 0
+    - _SpecularIntensity: 2
+    - _SpecularPower: 20
+    - _SpecularShiftIntensity: 0.5
+    - _SpecularSmoothness: 99.68
+    - _SpecularSoftness: 0
+    - _SpecularThreshold: 1
+    - _UseAngelRing: 1
+    - _ZOffset: 0
+    m_Colors:
+    - _AngelRingColor: {r: 2.670157, g: 2.670157, b: 2.670157, a: 1}
+    - _BaseColor: {r: 0.57861626, g: 0.57861626, b: 0.57861626, a: 1}
+    - _MatCapColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ShadowColor: {r: 0.6, g: 0.6, b: 0.6, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+--- !u!114 &1044044381150318086
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
